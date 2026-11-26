@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": false },
+    { "source": "/about", "destination": "/", "permanent": false },
+    { "source": "/about.html", "destination": "/", "permanent": false },
+    { "source": "/careers", "destination": "/", "permanent": false },
+    { "source": "/careers.html", "destination": "/", "permanent": false },
+    { "source": "/contact", "destination": "/", "permanent": false },
+    { "source": "/contact.html", "destination": "/", "permanent": false },
+    { "source": "/faqs", "destination": "/", "permanent": false },
+    { "source": "/faqs.html", "destination": "/", "permanent": false },
+    { "source": "/legal", "destination": "/", "permanent": false },
+    { "source": "/legal.html", "destination": "/", "permanent": false },
+    { "source": "/locations", "destination": "/", "permanent": false },
+    { "source": "/locations.html", "destination": "/", "permanent": false },
+    { "source": "/services", "destination": "/", "permanent": false },
+    { "source": "/services.html", "destination": "/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  ]
+}
